@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 app = FastAPI(title="Iris Species Prediction API")
 
 def train_model():
-    # Load the dataset from the CSV file
+    # Load the dataset from the CSV file.
     df = pd.read_csv('iris.csv')
 
     # Define features (X) and target (y)
